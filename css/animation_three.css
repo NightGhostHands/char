@@ -1,0 +1,179 @@
+/* All CSS styles go here */
+.grid_container {
+	width: 200px;
+	height: 100px;
+	position: relative;
+	left: 50%;
+	top: 48%; 
+	margin-top: -50px;
+	margin-left: -100px;
+
+}
+
+
+.square {
+	width: 300px;
+	height: 300px;
+	background: url("../images/BG1.jpg");
+  background-size: cover;
+	position: absolute;
+	left: -150%;
+	top: 200%;
+	margin-left: 0px;
+	margin-top: 0px;
+	z-index: -1;
+
+}
+
+.square2 {
+	width: 300px;
+	height: 300px;
+	background: url("../images/BG2.jpg");
+  background-size: cover;
+	position: absolute;
+	left: 0%;
+	top: 200%;
+	margin-left: 0px;
+	margin-top: 0px;
+	z-index: -1;
+
+}
+
+.square3 {
+	width: 300px;
+	height: 300px;
+	background: url("../images/BG3.jpg");
+  background-size: cover;
+	position: absolute;
+	left: 150%;
+	top: 200%;
+	margin-left: 0px;
+	margin-top: 0px;
+	z-index: -1;
+
+}
+
+.square4 {
+	width: 300px;
+	height: 300px;
+	background: url("../images/BG4.jpg");
+  background-size: cover;
+	position: absolute;
+	left: -150%;
+	top: 500%;
+	margin-left: 0px;
+	margin-top: 0px;
+	z-index: -1;
+
+}
+
+.square5 {
+	width: 300px;
+	height: 300px;
+	background: url("../images/BG5.jpg");
+  background-size: cover;
+	position: absolute;
+	left: 0%;
+	top: 500%;
+	margin-left: 0px;
+	margin-top: 0px;
+	z-index: -1;
+
+}
+
+.square6 {
+	width: 300px;
+	height: 300px;
+	background: url("../images/BG6.jpg");
+  background-size: cover;
+	position: absolute;
+	left: 150%;
+	top: 500%;
+	margin-left: 0px;
+	margin-top: 0px;
+	z-index: -1;
+
+}
+
+.square7 {
+	width: 300px;
+	height: 300px;
+	background: url("../images/BG7.jpg");
+  background-size: cover;
+	position: absolute;
+	left: -150%;
+	top: 800%;
+	margin-left: 0px;
+	margin-top: 0px;
+	z-index: -1;
+
+}
+
+.square8 {
+	width: 300px;
+	height: 300px;
+	background: url("../images/BG8.jpg");
+  background-size: cover;
+	position: absolute;
+	left: 0%;
+	top: 800%;
+	margin-left: 0px;
+	margin-top: 0px;
+	z-index: -1;
+
+}
+
+.square9 {
+	width: 300px;
+	height: 300px;
+	background: url("../images/BG9.jpg");
+  background-size: cover;
+	position: absolute;
+	left: 150%;
+	top: 800%;
+	margin-left: 0px;
+	margin-top: 0px;
+	z-index: -1;
+
+}
+
+
+.grid_container:hover .square {
+  transform: translate(-120%, -120%);
+  transition: 1s;
+}
+
+.grid_container:hover .square2 {
+  transform: translate(0%, -120%);
+  transition: 1s;
+}
+
+.grid_container:hover .square3 {
+  transform: translate(120%, -120%);
+  transition: 1s;
+}
+
+.grid_container:hover .square4 {
+  transform: translate(-120%, 0%);
+  transition: 1s;
+}
+
+.grid_container:hover .square6 {
+  transform: translate(120%, 0%);
+  transition: 1s;
+}
+
+.grid_container:hover .square7 {
+  transform: translate(-120%, 120%);
+  transition: 1s;
+}
+
+.grid_container:hover .square8 {
+  transform: translate(0%, 120%);
+  transition: 1s;
+}
+
+.grid_container:hover .square9 {
+  transform: translate(120%, 120%);
+  transition: 1s;
+}
